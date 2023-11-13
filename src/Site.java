@@ -9,5 +9,7 @@ public class Site {
     public Site(){
 
     }
+    static public double getBaseAmount;
+    static public double getTaxAmount;
 
 }
