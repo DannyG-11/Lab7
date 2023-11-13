@@ -9,6 +9,9 @@ public class Site {
     public Site(){
 
     }
+    public double getBillableAmount(){
+        return getBaseAmount + getTaxAmount;
+    }
     static public double getBaseAmount;
     static public double getTaxAmount;
 
